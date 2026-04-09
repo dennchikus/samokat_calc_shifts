@@ -1,7 +1,10 @@
-import json
-import os
 import re
 import sqlite3
+
+# Старая версия требовала
+# import json
+# import os
+
 
 def init_db():
     # 1. Подключаемся к файлу (если его нет, он создастся сам)
